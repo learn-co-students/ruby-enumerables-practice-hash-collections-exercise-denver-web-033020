@@ -63,26 +63,3 @@ def organize_campuses data
   }
   my_hash
 end
-
-d =     {
-      "Flatiron School Manhattan" => {
-        :location => "NY"
-      },
-      "Access Labs" => {
-        :location => "NY"
-      },
-      "Flatiron School Chicago" => {
-        :location => "IL"
-      },
-      "Flatiron School Houston" => {
-        :location => "TX"
-      },
-      "Flatiron School Midtown" => {
-        :location => "NY"
-      },
-      "Flatiron School Austin" => {
-        :location => "TX"
-      }
-    }
-
-organize_campuses(d)
